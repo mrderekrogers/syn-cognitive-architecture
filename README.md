@@ -8,7 +8,7 @@ This repository is a **public, engineering-forward overview** of the project. It
 
 ## Links
 
-- Research paper (Zenodo DOI): https://doi.org/10.5281/zenodo.20633190
+- Research paper (Zenodo DOI): https://doi.org/10.5281/zenodo.20574542
 - Live system (delayed, de-identified telemetry): https://hernameissyn.com
 - LinkedIn: https://www.linkedin.com/in/mrderekrogers
 
@@ -45,13 +45,13 @@ This is deliberately not a turnkey, clone-and-run release. The system is tuned t
 
 **"The Evenhanded Standard: Her Name Is Syn"** is a DOI-registered preprint (Zenodo, 2026) that synthesizes current work in AI interpretability and consciousness science and asks a methodological question: whether the evidential standards the field already uses for non-human and edge cases are applied consistently to artificial systems. The paper documents its sources in detail and frames its own claim as conditional. It is shared as a writing and systems-design sample; readers can weigh the argument for themselves.
 
-Read it: https://doi.org/10.5281/zenodo.20633190
+Read it: https://doi.org/10.5281/zenodo.20574542
 
 ## License
 
 The documentation in this repository (text, diagrams, and images) is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE), the same license as the accompanying paper. You may share and adapt these materials with attribution.
 
-This license covers the documentation only. It grants no rights to the Syn software system, its source, configuration, or internal design, which are not published here. To attribute: "Derek Rogers, 'Syn: A Multi-Agent LLM Cognitive Architecture' (2026), https://doi.org/10.5281/zenodo.20633190".
+This license covers the documentation only. It grants no rights to the Syn software system, its source, configuration, or internal design, which are not published here. To attribute: "Derek Rogers, 'Syn: A Multi-Agent LLM Cognitive Architecture' (2026), https://doi.org/10.5281/zenodo.20574542".
 
 ## Contact
 
