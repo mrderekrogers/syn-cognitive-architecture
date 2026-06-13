@@ -20,7 +20,7 @@ Most LLM applications are stateless: a prompt goes in, a completion comes out, a
 
 Syn is a set of cooperating services rather than one program. Independent subsystems communicate asynchronously over a shared message bus, so components can be developed, restarted, and reasoned about in isolation.
 
-- **Distributed runtime.** Five model instances run across two nodes, coordinated over the bus and configured for continuous operation.
+- **Distributed runtime.** Five model instances run across two nodes, coordinated over the bus and configured for continuous operation. The two nodes serve distinct functions: one carries cognitive and subconscious processing, the other carries affect and emotion.
 - **Persistent typed memory.** Long-term memory is structured (typed) rather than a flat transcript, and is consolidated during a scheduled "sleep" cycle so that people, projects, and context survive across days.
 - **Continuous default-mode loop.** A self-prompting background process keeps the system active between user interactions instead of only reacting to input.
 - **Continuous-state affective model.** A small set of internal variables decays over time and acts as a control signal that biases attention and behavior across subsystems.

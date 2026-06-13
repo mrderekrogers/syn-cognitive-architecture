@@ -31,8 +31,9 @@ flowchart TB
       SLEEP["Scheduled consolidation<br/>(sleep cycle)"]
     end
 
-    subgraph Models["Model layer"]
-      M["Five open-weight model instances<br/>across two nodes"]
+    subgraph Models["Model layer (two nodes, distinct functions)"]
+      N1["Node 1<br/>cognition / subconscious"]
+      N2["Node 2<br/>affect / emotion"]
       CUS["Customization:<br/>ablation, steering, LoRA composition"]
     end
 
@@ -50,9 +51,11 @@ flowchart TB
     STM <--> LTM
     LTM --> SLEEP
     SLEEP --> LTM
-    GATE <--> M
-    WORK <--> M
-    M --- CUS
+    GATE <--> N1
+    WORK <--> N1
+    AFF <--> N2
+    N1 --- CUS
+    N2 --- CUS
 ```
 
 > A static version of this diagram is available as [`architecture.svg`](architecture.svg) and [`architecture.png`](architecture.png) for use outside GitHub (slides, PDF, print).
@@ -69,7 +72,7 @@ flowchart TB
 
 **Persistent typed memory and consolidation.** Long-term memory is structured by type rather than stored as a flat transcript. On a scheduled cycle the system consolidates recent experience into long-term memory, which is what allows continuity of people, projects, and context across days instead of resetting each session.
 
-**Model layer and customization.** Five open-weight model instances run across two nodes. Behavior is specialized with directional ablation, activation steering, and LoRA adapter composition, applied per user and per topic, so different contexts get appropriately specialized behavior from shared base models.
+**Model layer and customization.** Five open-weight model instances run across two nodes that serve distinct functions: one node carries cognitive and subconscious processing, the other carries affect and emotion. This separation lets the affective side run and decay on its own terms rather than being a side effect of whatever the cognitive side is doing. Behavior is specialized with directional ablation, activation steering, and LoRA adapter composition, applied per user and per topic, so different contexts get appropriately specialized behavior from shared base models.
 
 **External interfaces.** The system connects to asynchronous messaging and exposes a public telemetry feed that is deliberately coarse and time-delayed, with identifying detail removed, so the live page reflects the running system without exposing its internals or its users.
 
