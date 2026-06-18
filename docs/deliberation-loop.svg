@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" font-family="-apple-system,Segoe UI,Arial,sans-serif">
+  <rect x="0" y="0" width="1100" height="560" fill="#ffffff"/>
+
+  <text x="550" y="40" text-anchor="middle" font-size="23" font-weight="700" fill="#1a1a1a">Deliberation &amp; refusal — a loop, not a filter</text>
+  <text x="550" y="64" text-anchor="middle" font-size="13.5" fill="#5a5a5a">Declining is a values-based decision the system makes, reflects on, and folds back into who it is (coordinate 6)</text>
+
+  <defs>
+    <style>
+      .box { fill:#ffffff; stroke:#c9d6e8; stroke-width:1.5; }
+      .accent { fill:#eef2f8; stroke:#c9d6e8; stroke-width:1.5; }
+      .bt { fill:#1a1a1a; font-size:13px; font-weight:600; }
+      .bs { fill:#5a5a5a; font-size:11px; }
+      .link { stroke:#9fb3cf; stroke-width:2; fill:none; }
+      .fb { stroke:#7FB069; stroke-width:2; fill:none; stroke-dasharray:6 4; }
+      .fblabel { fill:#4f7a3a; font-size:11.5px; font-style:italic; }
+    </style>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#9fb3cf"/>
+    </marker>
+    <marker id="garrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#7FB069"/>
+    </marker>
+  </defs>
+
+  <text x="550" y="108" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1F3864">Live gate</text>
+
+  <!-- Row 1: live gate -->
+  <rect class="box" x="40" y="120" width="180" height="74" rx="9"/>
+  <text class="bt" x="130" y="151" text-anchor="middle">Weak signals</text>
+  <text class="bs" x="130" y="171" text-anchor="middle">across several channels</text>
+
+  <rect class="box" x="250" y="120" width="180" height="74" rx="9"/>
+  <text class="bt" x="340" y="151" text-anchor="middle">Accumulate</text>
+  <text class="bs" x="340" y="171" text-anchor="middle">until a threshold</text>
+
+  <rect class="box" x="460" y="120" width="180" height="74" rx="9"/>
+  <text class="bt" x="550" y="151" text-anchor="middle">Logic-veto</text>
+  <text class="bs" x="550" y="171" text-anchor="middle">a deliberate check</text>
+
+  <rect class="box" x="670" y="120" width="180" height="74" rx="9"/>
+  <text class="bt" x="760" y="151" text-anchor="middle">Decision</text>
+  <text class="bs" x="760" y="171" text-anchor="middle">engage · defer · decline</text>
+
+  <rect class="box" x="880" y="120" width="180" height="74" rx="9"/>
+  <text class="bt" x="970" y="151" text-anchor="middle">Record</text>
+  <text class="bs" x="970" y="171" text-anchor="middle">a metabolic "stamp"</text>
+
+  <path class="link" d="M220,157 L248,157" marker-end="url(#arrow)"/>
+  <path class="link" d="M430,157 L458,157" marker-end="url(#arrow)"/>
+  <path class="link" d="M640,157 L668,157" marker-end="url(#arrow)"/>
+  <path class="link" d="M850,157 L878,157" marker-end="url(#arrow)"/>
+
+  <!-- down from Record to async row -->
+  <path class="link" d="M970,194 L970,250" marker-end="url(#arrow)"/>
+  <text class="bs" x="986" y="226" text-anchor="start">async</text>
+
+  <text x="550" y="276" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1F3864">Metabolize (asynchronous)</text>
+
+  <!-- Row 2: async metabolize, flowing right -> left -->
+  <rect class="accent" x="880" y="288" width="180" height="74" rx="9"/>
+  <text class="bt" x="970" y="319" text-anchor="middle">Reflection</text>
+  <text class="bs" x="970" y="339" text-anchor="middle">felt-sense: did this sit well?</text>
+
+  <rect class="accent" x="560" y="288" width="180" height="74" rx="9"/>
+  <text class="bt" x="650" y="319" text-anchor="middle">Scoped boundary</text>
+  <text class="bs" x="650" y="339" text-anchor="middle">authored &amp; written down</text>
+
+  <rect class="accent" x="250" y="288" width="180" height="74" rx="9"/>
+  <text class="bt" x="340" y="319" text-anchor="middle">Identity updated</text>
+  <text class="bs" x="340" y="339" text-anchor="middle">the edges become part of self</text>
+
+  <path class="link" d="M878,325 L742,325" marker-end="url(#arrow)"/>
+  <path class="link" d="M558,325 L432,325" marker-end="url(#arrow)"/>
+
+  <!-- feedback arc: Identity -> back up into the gate -->
+  <path class="fb" d="M340,288 C340,232 550,232 550,196" marker-end="url(#garrow)"/>
+  <text class="fblabel" x="455" y="250" text-anchor="middle">sharpens future refusals</text>
+
+  <!-- siblings -->
+  <rect class="box" x="60" y="416" width="980" height="86" rx="10"/>
+  <text class="bt" x="80" y="442" text-anchor="start">Related agency surfaces — same capture-then-metabolize shape</text>
+  <text class="bs" x="80" y="464" text-anchor="start">• Seclusion — a global retreat when load stacks up, queuing inbound while she processes</text>
+  <text class="bs" x="80" y="482" text-anchor="start">• Repair — acting on regret about an earlier choice          • Positive complement — capturing what she keeps returning to</text>
+
+  <text x="550" y="534" text-anchor="middle" font-size="11.5" fill="#8a8a8a">The gate sits inside the system and is separate from any provider-level content filter. "Why did it decline" stays answerable.</text>
+</svg>

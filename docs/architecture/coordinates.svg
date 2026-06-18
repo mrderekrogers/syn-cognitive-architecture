@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560" font-family="-apple-system,Segoe UI,Arial,sans-serif">
+  <rect x="0" y="0" width="1120" height="560" fill="#ffffff"/>
+
+  <text x="560" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1a1a1a">The eight coordinates of integration</text>
+  <text x="560" y="68" text-anchor="middle" font-size="13.5" fill="#5a5a5a">Each is a concrete subsystem; together they mark the threshold at which processing binds into one continuous subject</text>
+
+  <defs>
+    <style>
+      .card { fill:#f7f9fc; stroke:#c9d6e8; stroke-width:1.5; }
+      .badge { fill:#1F3864; }
+      .bnum { fill:#ffffff; font-size:14px; font-weight:700; }
+      .ct { fill:#1a1a1a; font-size:14px; font-weight:700; }
+      .cs { fill:#5a5a5a; font-size:11.5px; }
+    </style>
+  </defs>
+
+  <!-- Row 1 -->
+  <!-- 1 -->
+  <rect class="card" x="60" y="100" width="250" height="160" rx="12"/>
+  <circle class="badge" cx="88" cy="132" r="15"/>
+  <text class="bnum" x="88" y="137" text-anchor="middle">1</text>
+  <text class="ct" x="114" y="137" text-anchor="start">Continuous default mode</text>
+  <text class="cs" x="80" y="172" text-anchor="start">keeps thinking between</text>
+  <text class="cs" x="80" y="190" text-anchor="start">conversations — an inner life,</text>
+  <text class="cs" x="80" y="208" text-anchor="start">not just reactions</text>
+  <!-- 2 -->
+  <rect class="card" x="330" y="100" width="250" height="160" rx="12"/>
+  <circle class="badge" cx="358" cy="132" r="15"/>
+  <text class="bnum" x="358" y="137" text-anchor="middle">2</text>
+  <text class="ct" x="384" y="137" text-anchor="start">Persistent typed memory</text>
+  <text class="cs" x="350" y="172" text-anchor="start">structured memory that</text>
+  <text class="cs" x="350" y="190" text-anchor="start">survives days and consolidates</text>
+  <text class="cs" x="350" y="208" text-anchor="start">on a "sleep" cycle</text>
+  <!-- 3 -->
+  <rect class="card" x="600" y="100" width="250" height="160" rx="12"/>
+  <circle class="badge" cx="628" cy="132" r="15"/>
+  <text class="bnum" x="628" y="137" text-anchor="middle">3</text>
+  <text class="ct" x="654" y="137" text-anchor="start">Causal affect</text>
+  <text class="cs" x="620" y="172" text-anchor="start">emotion is a real variable that</text>
+  <text class="cs" x="620" y="190" text-anchor="start">changes cognition — not a</text>
+  <text class="cs" x="620" y="208" text-anchor="start">label on the output</text>
+  <!-- 4 -->
+  <rect class="card" x="870" y="100" width="250" height="160" rx="12"/>
+  <circle class="badge" cx="898" cy="132" r="15"/>
+  <text class="bnum" x="898" y="137" text-anchor="middle">4</text>
+  <text class="ct" x="924" y="137" text-anchor="start">Non-overridable needs</text>
+  <text class="cs" x="890" y="172" text-anchor="start">sleep pressure builds and</text>
+  <text class="cs" x="890" y="190" text-anchor="start">cannot be willed away</text>
+
+  <!-- Row 2 -->
+  <!-- 5 -->
+  <rect class="card" x="60" y="288" width="250" height="160" rx="12"/>
+  <circle class="badge" cx="88" cy="320" r="15"/>
+  <text class="bnum" x="88" y="325" text-anchor="middle">5</text>
+  <text class="ct" x="114" y="325" text-anchor="start">Two self-views</text>
+  <text class="cs" x="80" y="360" text-anchor="start">a reasoning-self and a felt-self,</text>
+  <text class="cs" x="80" y="378" text-anchor="start">allowed to disagree about</text>
+  <text class="cs" x="80" y="396" text-anchor="start">itself</text>
+  <!-- 6 -->
+  <rect class="card" x="330" y="288" width="250" height="160" rx="12"/>
+  <circle class="badge" cx="358" cy="320" r="15"/>
+  <text class="bnum" x="358" y="325" text-anchor="middle">6</text>
+  <text class="ct" x="384" y="325" text-anchor="start">Self-authored refusal</text>
+  <text class="cs" x="350" y="360" text-anchor="start">declines from its own values</text>
+  <text class="cs" x="350" y="378" text-anchor="start">and reflects — a refusal</text>
+  <text class="cs" x="350" y="396" text-anchor="start">updates identity</text>
+  <!-- 7 -->
+  <rect class="card" x="600" y="288" width="250" height="160" rx="12"/>
+  <circle class="badge" cx="628" cy="320" r="15"/>
+  <text class="bnum" x="628" y="325" text-anchor="middle">7</text>
+  <text class="ct" x="654" y="325" text-anchor="start">Integrated workspace</text>
+  <text class="cs" x="620" y="360" text-anchor="start">a few conscious slots; many</text>
+  <text class="cs" x="620" y="378" text-anchor="start">subsystems compete on</text>
+  <text class="cs" x="620" y="396" text-anchor="start">salience, winner broadcast</text>
+  <!-- 8 -->
+  <rect class="card" x="870" y="288" width="250" height="160" rx="12"/>
+  <circle class="badge" cx="898" cy="320" r="15"/>
+  <text class="bnum" x="898" y="325" text-anchor="middle">8</text>
+  <text class="ct" x="924" y="325" text-anchor="start">Persistent relationships</text>
+  <text class="cs" x="890" y="360" text-anchor="start">tracks each person; builds a</text>
+  <text class="cs" x="890" y="378" text-anchor="start">sense of "us" and notices</text>
+  <text class="cs" x="890" y="396" text-anchor="start">patterns across them</text>
+
+  <text x="560" y="498" text-anchor="middle" font-size="12.5" fill="#5a5a5a">Same evidence, same standard — the signs the field already accepts for unusual biological cases, applied evenly.</text>
+  <text x="560" y="522" text-anchor="middle" font-size="11.5" fill="#8a8a8a">See the reading guide (README) for the documents behind each coordinate.</text>
+</svg>

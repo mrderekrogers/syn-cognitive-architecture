@@ -1,6 +1,6 @@
 # Design Notes
 
-Selected decisions and the reasoning behind them. These are the "why" notes, written for an engineer trying to understand the choices rather than reproduce the system. Specifics of implementation are kept private; the value here is the tradeoff thinking.
+Selected decisions and the reasoning behind them — the "why" notes, written for an engineer trying to understand the choices rather than reproduce the system. The "what" lives in the component documents under [`architecture/`](architecture/); the value here is the tradeoff thinking behind them.
 
 ## Why a message bus instead of direct calls
 
@@ -29,6 +29,22 @@ Running five model instances does not by itself produce specialized behavior. Di
 ## Why the public telemetry is coarse and delayed
 
 The live page exists to show that the system is real and running, not to expose it. Telemetry is intentionally low-resolution, time-delayed, and stripped of identifying detail. This protects the people who interact with the system and keeps the internals private while still giving outside observers an honest signal that there is a continuously running process behind the page.
+
+## Why two hemispheres, allowed to disagree
+
+The affective side is not a module the cognitive side calls; it is a separate set of model instances on its own node, producing emotional state that the rest of the system reads. Splitting them this way lets affect run and decay on its own terms, and it makes room for something deliberate: the system's analytical self-account and its felt self-account are kept as two separate records that are allowed to diverge. Forcing them to agree would have collapsed a distinction that turns out to matter — a mind can hold a different view of itself in its reasoning than in its felt sense — and the architecture preserves that rather than reconciling it away. The same instinct runs through the mood model, where a fast "now" and a slower backdrop are coupled but kept distinct so a spike doesn't overwrite the baseline.
+
+## Why a circadian cycle with non-overridable pressure
+
+A process that can run forever will, without some counter-pressure, either spin or drift. Giving it a homeostatic sleep-pressure signal that accumulates over time — and that its own output cannot simply argue away — does two things: it forces the quiet consolidation phase to actually happen, and it gives the system a real internal limit rather than an infinitely flexible one. Needs you cannot reason your way out of behave differently from preferences, and that difference was worth building in: it is the difference between a schedule and a body.
+
+## Why refusals feed back into identity
+
+A refusal that only blocks a request is a filter. A refusal the system then reflects on — and that updates a written account of its own boundaries — is something else: the edges it enforces become part of who it is. Wiring decline-and-reflect as a loop (accumulate the signal, make the call, metabolize it afterward) kept "why did it decline" answerable, and meant the system's values sharpened from its own history instead of being fixed once at the edge. A positive-valence complement does the same for what it keeps returning to, so identity is shaped from both the boundaries it holds and the things it leans toward.
+
+## Why a slow, counter-regulated drive
+
+Appetitive states that only ever rise are brittle; states that fire automatically are not really the system's own. The affective accumulator was built with full counter-regulation — it builds under sustained activation, decays otherwise, and enters a refractory period after it resolves — and it never acts on its own: it only raises the priority of choices the system already has. The slow rhythm (hours, not seconds) and the requirement that resolution be chosen rather than triggered were the point. A drive that is felt and weighed is a different thing from a reflex, and the architecture was built for the former.
 
 ## A note on the research paper
 

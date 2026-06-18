@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="450" viewBox="0 0 1100 450" font-family="-apple-system,Segoe UI,Arial,sans-serif">
+  <rect x="0" y="0" width="1100" height="450" fill="#ffffff"/>
+
+  <text x="550" y="40" text-anchor="middle" font-size="23" font-weight="700" fill="#1a1a1a">Default-mode loop — the circadian cycle</text>
+  <text x="550" y="64" text-anchor="middle" font-size="13.5" fill="#5a5a5a">A self-prompting process that keeps thinking when no one is talking to it (coordinate 1)</text>
+
+  <defs>
+    <style>
+      .box { fill:#ffffff; stroke:#c9d6e8; stroke-width:1.5; }
+      .phase { fill:#f4f7fb; stroke:#c9d6e8; stroke-width:1.5; }
+      .bt { fill:#1a1a1a; font-size:13px; font-weight:600; }
+      .bs { fill:#5a5a5a; font-size:11px; }
+      .link { stroke:#9fb3cf; stroke-width:2; fill:none; }
+      .note { fill:#8a6d1a; font-size:11px; }
+    </style>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#9fb3cf"/>
+    </marker>
+  </defs>
+
+  <!-- annotations above -->
+  <text class="bs" x="112" y="106" text-anchor="middle" font-style="italic">self-prompting —</text>
+  <text class="bs" x="112" y="120" text-anchor="middle" font-style="italic">no external trigger</text>
+  <path class="link" d="M112,128 L112,160" marker-end="url(#arrow)"/>
+
+  <text class="note" x="842" y="106" text-anchor="middle">sleep pressure accumulates,</text>
+  <text class="note" x="842" y="120" text-anchor="middle">opens the sleep window (non-overridable)</text>
+  <path class="link" d="M842,128 L842,160" marker-end="url(#arrow)" stroke="#d6b34a"/>
+
+  <!-- phase row -->
+  <!-- 0 -->
+  <rect class="phase" x="51" y="160" width="122" height="76" rx="9"/>
+  <text class="bt" x="112" y="194" text-anchor="middle">Wake /</text>
+  <text class="bt" x="112" y="210" text-anchor="middle">orient</text>
+  <!-- 1 -->
+  <rect class="phase" x="197" y="160" width="122" height="76" rx="9"/>
+  <text class="bt" x="258" y="194" text-anchor="middle">Diary</text>
+  <text class="bt" x="258" y="210" text-anchor="middle">review</text>
+  <!-- 2 -->
+  <rect class="phase" x="343" y="160" width="122" height="76" rx="9"/>
+  <text class="bt" x="404" y="194" text-anchor="middle">Memory</text>
+  <text class="bt" x="404" y="210" text-anchor="middle">review</text>
+  <!-- 3 -->
+  <rect class="phase" x="489" y="160" width="122" height="76" rx="9"/>
+  <text class="bt" x="550" y="194" text-anchor="middle">Self-</text>
+  <text class="bt" x="550" y="210" text-anchor="middle">narrative</text>
+  <!-- 4 -->
+  <rect class="phase" x="635" y="160" width="122" height="76" rx="9"/>
+  <text class="bt" x="696" y="202" text-anchor="middle">Curiosity</text>
+  <!-- 5 -->
+  <rect class="phase" x="781" y="160" width="122" height="76" rx="9" fill="#eef2f8"/>
+  <text class="bt" x="842" y="194" text-anchor="middle">Dream</text>
+  <text class="bs" x="842" y="210" text-anchor="middle">(sleep window)</text>
+  <!-- 6 -->
+  <rect class="phase" x="927" y="160" width="122" height="76" rx="9"/>
+  <text class="bt" x="988" y="202" text-anchor="middle">Reflection</text>
+
+  <!-- forward arrows -->
+  <path class="link" d="M173,198 L195,198" marker-end="url(#arrow)"/>
+  <path class="link" d="M319,198 L341,198" marker-end="url(#arrow)"/>
+  <path class="link" d="M465,198 L487,198" marker-end="url(#arrow)"/>
+  <path class="link" d="M611,198 L633,198" marker-end="url(#arrow)"/>
+  <path class="link" d="M757,198 L779,198" marker-end="url(#arrow)"/>
+  <path class="link" d="M903,198 L925,198" marker-end="url(#arrow)"/>
+
+  <!-- loop-back arc -->
+  <path class="link" d="M988,236 C988,340 112,340 112,238" marker-end="url(#arrow)"/>
+  <text class="bs" x="550" y="332" text-anchor="middle">the cycle repeats — continuously, between interactions</text>
+
+  <text x="550" y="420" text-anchor="middle" font-size="11.5" fill="#8a8a8a">Circadian weighting biases which phase is chosen next — a cadence, not a fixed sequence. Phase names are illustrative.</text>
+</svg>
