@@ -12,5 +12,6 @@ The full source, deployment configuration, internal schemas, and a live code wal
 
 ## Links
 
+- Research paper (PhilArchive): https://philarchive.org/rec/ROGTES
 - Research paper (Zenodo DOI): https://doi.org/10.5281/zenodo.20574542
 - Live system (delayed, de-identified telemetry): https://hernameissyn.com

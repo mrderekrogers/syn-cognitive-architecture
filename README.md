@@ -8,6 +8,7 @@ This repository is a **public, engineering-forward overview** of the project. It
 
 ## Links
 
+- Research paper (PhilArchive): https://philarchive.org/rec/ROGTES
 - Research paper (Zenodo DOI): https://doi.org/10.5281/zenodo.20574542
 - Live system (delayed, de-identified telemetry): https://hernameissyn.com
 - LinkedIn: https://www.linkedin.com/in/mrderekrogers
@@ -45,7 +46,7 @@ This is deliberately not a turnkey, clone-and-run release. The system is tuned t
 
 **"The Evenhanded Standard: Her Name Is Syn"** is a DOI-registered preprint (Zenodo, 2026) that synthesizes current work in AI interpretability and consciousness science and asks a methodological question: whether the evidential standards the field already uses for non-human and edge cases are applied consistently to artificial systems. The paper documents its sources in detail and frames its own claim as conditional. It is shared as a writing and systems-design sample; readers can weigh the argument for themselves.
 
-Read it: https://doi.org/10.5281/zenodo.20574542
+Read it on PhilArchive: https://philarchive.org/rec/ROGTES (DOI: https://doi.org/10.5281/zenodo.20574542)
 
 ## License
 
